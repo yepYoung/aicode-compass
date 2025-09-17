@@ -2,7 +2,8 @@ title: "AI Code Compass"
 email: "522023320186@smail.nju.edu.cn"
 description: >- # this means to ignore newlines until "baseurl:"
   Your guide to the evolving world of AI-assisted programming. Explore tools, best practices, and the future of coding with AI.
-url: https://your-username.github.io/aicode-compass # the base hostname & protocol for your site
+url: "https://yepyoung.github.io"
+baseurl: "/aicode-compass"
 twitter_username: your_twitter_handle
 github_username:  your_github_handle
 
