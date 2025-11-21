@@ -17,6 +17,13 @@ plugins:
 # 启用搜索框 (图1右上角的搜索功能)
 search_enabled: true
 
+color_scheme: dark
+
+aux_links:
+  "GitHub Repository": https://github.com/yepYoung/aicode-compass
+
+footer_content: "Copyright &copy; 2025 AICode Compass. Distributed by an MIT license."
+
 # 标题锚点 (鼠标悬停在标题上显示的链接符号)
 heading_anchors: true
 
