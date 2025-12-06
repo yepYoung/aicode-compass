@@ -1,6 +1,6 @@
 ---
 layout: default
-title: AI/Vibe Coding
+title: AI Coding
 nav_order: 2
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Vibe Coding - AI 作为驾驶员
+title: Vibe Coding: AI 作为驾驶员
 nav_order: 3
 ---
 ## 开始
@@ -150,7 +150,7 @@ LLM 经过不同的目标训练和微调将适应不同的任务，这里列出�
     - <https://www.swebench.com/>
     - <https://swe-bench-live.github.io/>
     - <https://aider.chat/docs/leaderboards/>
-    
+
 ---
 
 ## 为你的项目设置规则
