@@ -29,6 +29,62 @@ nav_order: 5
 
 如果你希望在 Web 应用中加入 3D 内容，且使用的是 React，那么建议使用 React Three Fiber (R3F)，而不是直接使用 three.js。R3F 将 three.js 对象封装为 React 组件，使得状态管理与 React 的数据流保持一致，更容易构建复杂的 3D 交互。
 
+### 仅仅想让界面变好看？
+
+如果您既不是一个专业的UI设计师，又不是一个专业的前端开发程序员，那么想一下子设计一个界面好看的前端展示，似乎不是一个很简单的事情。甚至可以说很难，想象一下，入门一些乱糟糟的前端开发的语言或框架就足够占用你大部分精力了。
+
+幸运的是，这里有一些方法，让您可以既不懂设计又不懂开发，依然可以帮你开发出足够美观优雅的界面。下面我将用一个简单的示例来说明。
+
+👉 **[示例]**  一种通常效果良好的方法/策略/工作流程
+
+首先，寻找主题相关的 UI 网站。
+
+注意，我们要找的可不是那种”艺术展”风格的设计网站，也不是随便一个「画廊」，你需要的是 —— **UI 组件网站（UI Component Library Sites）**。这些网站不仅展示了各种组件样式（Components Style），还会直接提供**可复制的代码示例**。对 LLM 来说，这一点超级关键。例如：
+
+![UI组件网站示例]({{ "/img/UI-example.png" | relative_url }})
+
+之后，直接将下面的Prompts放入Agent中就好。
+
+```
+你不仅是一个资深的软件工程师，还是一个UI设计师。
+请修改本项目的UI界面为[新粗野主义(Neo-Brutalism)]，完全参考https://www.neobrutalism.dev，遵循其设计原则、视觉风格和交互模式。
+```
+
+下面是一些常用的UI组件风格和网站的信息：
+| **风格** | **核心理念** | **提示关键词** | **网站** |
+| --- | --- | --- | --- |
+| 扁平化设计 (Flat Design) | 极致简约，去除所有装饰性元素（阴影、渐变、纹理） | Flat design, no shadows, no gradients, solid colors, simple icons, clean typography, minimalist. | 
+[Button | Semantic UI](https://semantic-ui.com/elements/button.html) |
+| 材料设计 (Material Design） | 模仿物理世界的纸张和墨水，有逻辑的层级和深度 | Material design, subtle shadows, logical layers, floating action button, Roboto font, bold color palettes. | 
+[Material UI](https://mui.com/material-ui/)
+[MDUI](https://www.mdui.org/en/)
+[Angular Material](https://material.angular.dev/) |
+| 极简主义 (Minimalism) | “少即是多”，只保留最核心的功能和元素 | Minimalist, monochromatic or limited color palette, heavy use of whitespace, uncluttered, typography-focused. | 
+[Geist UI](https://geist-ui.dev/en-us) 
+[Preline UI](https://www.preline.co/) |
+| 玻璃拟态 (Glassmorphism) | 模仿磨砂玻璃的效果，创造出半透明的层次感 | Glassmorphism, frosted glass effect, blurry background, semi-transparent, subtle border, vibrant background colors. | 
+[Liquid Glass UI](https://liquidglass.liqueai.com/)
+[Glasscn UI](https://allshadcn.com/components/glasscn-ui) |
+| 极光 UI (Aurora UI) | 模仿北极光的模糊、多彩的背景光效 | Aurora UI, colorful mesh gradients, blurry color blobs, soft, ethereal, often used in dark mode. | 
+[Aurora UI](https://auroraui.netlify.app)
+[Aceternity UI](https://ui.aceternity.com/components/aurora-background) |
+| 孟菲斯设计 (Memphis Design) | 80年代风格，大胆、古怪、好玩，打破常规 | Memphis design style, geometric shapes, clashing colors, playful patterns, squiggles and dots, asymmetrical. | 
+[Memphi UI](https://www.memphi.dev/docs)
+[Memphis Design](https://dribbble.com/tags/memphis-design)
+[Pinterest-Memphis UI](https://www.pinterest.com/faz654/memphis-ui) |
+| 瑞士风格 / 国际主义 (Swiss Design) | 极其注重网格、结构和清晰的排版，功能性强 | Swiss style, grid-based layout, sans-serif typography (like Helvetica), asymmetrical balance, objective, clean. | 
+[Swiss Post Design System](https://styles.design-system.post.ch)
+[Swiss Post Web Components](https://www.npmjs.com/package/@swisspost/design-system-components) |
+| 新拟物化 (Neumorphism) | 淡阴影 + 浮雕效果 + 柔和色彩 | Neumorphism, soft shadows, concave/convex shapes, light source simulation, subtle gradients. | 
+[Neumorphism](https://neumorphism.io/#e0e0e0) |
+| 新粗野主义(Neo-Brutalism) | 高对比度 + 粗黑边框 + 鲜艳纯色，刻意营造“未加工”的原始感，反主流精致，强调大胆排版 | Neo-brutalism, thick black outlines, high contrast, raw aesthetic, bold typography, flat colors, unpolished, retro computer interface. | [https://www.neobrutalism.dev](https://www.neobrutalism.dev/) |
+
+> 🌕 建议-5
+>
+>很多人第一次用 Vibe Coding 生成或修改 UI 时，都会踩这个坑。以为只要截一张图，用红框圈一圈或者做一个GIF，让 LLM 看懂交互就能让 AI “明白你想要的样子”，其实不然。AI不可能一次就写出完美 UI，而你提供的信息质量，决定了它能走多远。图片可以“展示”，但文字才能“解释”。即使你有再清晰的截图，也请继续用语言描述。包括布局逻辑、交互节奏、风格偏好、视觉层次……
+
+
+
 ## 后端开发
 
 与前端不同，后端开发在 Lovable 等基于 Web 的工具中并不理想。因此你可能需要转向更专业的工具，比如 Cursor、Windsurf、aider 等本地开发环境。
