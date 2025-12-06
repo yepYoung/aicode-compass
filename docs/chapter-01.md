@@ -17,6 +17,7 @@ AI 编程 (AI Coding) 是指使用 AI 模型及其所有相关工具来帮助您
 - <https://www.swebench.com/> —— SWE-bench Team (Princeton University, University of Chicago, Stanford University)
 - <https://www.tbench.ai/> —— Terminal-Bench Team (Laude, Microsoft, Anthropic)
 - ...
+
 ---
 
 但是，本文章主要关注实践中的 AI 编程：如果您正在使用 Cursor 并通过不断地“tab-tab-tab”来获取补全，您就是在AI 编程；如果您完全使用 Cursor 的代理模式，您也是在 AI 编程。总而言之：它是任何利用 AI 模型帮助您生成代码的方式。

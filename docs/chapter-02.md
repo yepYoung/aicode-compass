@@ -28,14 +28,15 @@ nav_order: 3
 - <https://bolt.new/>
 - <https://replit.com/>
 - <https://v0.app/>
-- <https://cursor.com/cn>
+- <https://cursor.com/cn/>
 - <https://windsurf.com/>
 - <https://docs.all-hands.dev/>
 - <https://arxiv.org/pdf/2407.16741?>
 - <https://aider.chat/>
 - <https://code.claude.com/docs/zh-CN/overview>
 - <https://openai.com/index/openai-codex/>
-- <https://github.com/google-gemini/gemini-cli>
+- <https://github.com/google-gemini/gemini-cli/>
+
 ---
 
 ## 如何为 Vibe Coding 提供 prompt？
@@ -149,6 +150,7 @@ LLM 经过不同的目标训练和微调将适应不同的任务，这里列出�
     - <https://www.swebench.com/>
     - <https://swe-bench-live.github.io/>
     - <https://aider.chat/docs/leaderboards/>
+    
 ---
 
 ## 为你的项目设置规则
