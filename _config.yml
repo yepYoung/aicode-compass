@@ -22,7 +22,7 @@ color_scheme: light
 aux_links:
   "GitHub Repository": https://github.com/yepYoung/aicode-compass
 
-footer_content: "Copyright &copy; 2025 AICode Compass. Distributed by an MIT license."
+footer_content: "Copyright &copy; 2025 YepYoung. Distributed by an MIT license."
 
 # 标题锚点 (鼠标悬停在标题上显示的链接符号)
 heading_anchors: true
