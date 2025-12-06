@@ -17,7 +17,7 @@ plugins:
 # 启用搜索框 (图1右上角的搜索功能)
 search_enabled: true
 
-color_scheme: dark
+color_scheme: light
 
 aux_links:
   "GitHub Repository": https://github.com/yepYoung/aicode-compass
