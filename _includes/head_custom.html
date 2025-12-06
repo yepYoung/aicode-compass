@@ -14,7 +14,7 @@
   
     /* 段落间距 */
     p {
-      margin-bottom: 1.2em; /* 段落之间间距大于行间距 */
+      margin-bottom: 1.1em; /* 段落之间间距大于行间距 */
     }
   
     /* 4. 修改侧边栏字体大小 */
@@ -25,10 +25,10 @@
   
     /* 5. 修改标题的粗细和颜色 - 调暗绿色 */
     h1, h2, h3 {
-      color: #2ea866; /* 调暗绿色，降低明度 */
+      color: #268853; /* 调暗绿色，降低明度 */
     }
   
-    /* 列表项自定义 Bullet Icon */
+    /* 列表项自定义 Bullet Icon - 只影响正文内容区域，排除侧边栏 */
     ul li {
       list-style: none;
       position: relative;
@@ -40,6 +40,15 @@
       font-weight: bold;
       position: absolute;
       left: 0;
+    }
+    /* 排除侧边栏导航列表，恢复默认样式 */
+    .nav-list ul li {
+      list-style: disc;
+      padding-left: 0;
+      position: static;
+    }
+    .nav-list ul li::before {
+      display: none;
     }
   
     /* 引用块样式 - 增加淡绿色背景和加深左侧竖线 */
@@ -54,14 +63,36 @@
     .btn-primary {
       background-color: #1f2328 !important;
       border-color: #1f2328 !important;
+      color: white !important;
     }
     .btn-primary:hover {
       background-color: #2d3136 !important;
       border-color: #2d3136 !important;
+      color: white !important;
+    }
+  
+    /* btn-outline 颜色改为品牌色 */
+    .btn-outline {
+      color: #1f2328 !important;
+      border-color: #1f2328 !important;
+    }
+    .btn-outline:hover {
+      background-color: #1f2328 !important;
+      color: white !important;
+      border-color: #1f2328 !important;
+    }
+  
+    /* 正文中的普通链接颜色改为品牌色 */
+    a:not(.btn):not(.nav-list-link):not(.aux-nav a) {
+      color: #1f2328 !important;
+    }
+    a:not(.btn):not(.nav-list-link):not(.aux-nav a):hover {
+      color: #2d3136 !important;
+      text-decoration: underline;
     }
   
     /* GitHub Repository 链接颜色改为品牌色 */
-    .aux-nav .aux-nav-list-item a[href*="github"] {
+    .aux-nav a[href*="github"] {
       color: #1f2328 !important;
     }
   </style>
