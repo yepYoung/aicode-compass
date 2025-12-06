@@ -47,37 +47,23 @@ nav_order: 5
 
 ```
 你不仅是一个资深的软件工程师，还是一个UI设计师。
-请修改本项目的UI界面为[新粗野主义(Neo-Brutalism)]，完全参考https://www.neobrutalism.dev，遵循其设计原则、视觉风格和交互模式。
+请修改本项目的UI界面为[新粗野主义(Neo-Brutalism)]，完全参考https://www.neobrutalism.dev。
+遵循其设计原则、视觉风格和交互模式。
 ```
 
 下面是一些常用的UI组件风格和网站的信息：
+
 | **风格** | **核心理念** | **提示关键词** | **网站** |
 | --- | --- | --- | --- |
-| 扁平化设计 (Flat Design) | 极致简约，去除所有装饰性元素（阴影、渐变、纹理） | Flat design, no shadows, no gradients, solid colors, simple icons, clean typography, minimalist. | 
-[Button | Semantic UI](https://semantic-ui.com/elements/button.html) |
-| 材料设计 (Material Design） | 模仿物理世界的纸张和墨水，有逻辑的层级和深度 | Material design, subtle shadows, logical layers, floating action button, Roboto font, bold color palettes. | 
-[Material UI](https://mui.com/material-ui/)
-[MDUI](https://www.mdui.org/en/)
-[Angular Material](https://material.angular.dev/) |
-| 极简主义 (Minimalism) | “少即是多”，只保留最核心的功能和元素 | Minimalist, monochromatic or limited color palette, heavy use of whitespace, uncluttered, typography-focused. | 
-[Geist UI](https://geist-ui.dev/en-us) 
-[Preline UI](https://www.preline.co/) |
-| 玻璃拟态 (Glassmorphism) | 模仿磨砂玻璃的效果，创造出半透明的层次感 | Glassmorphism, frosted glass effect, blurry background, semi-transparent, subtle border, vibrant background colors. | 
-[Liquid Glass UI](https://liquidglass.liqueai.com/)
-[Glasscn UI](https://allshadcn.com/components/glasscn-ui) |
-| 极光 UI (Aurora UI) | 模仿北极光的模糊、多彩的背景光效 | Aurora UI, colorful mesh gradients, blurry color blobs, soft, ethereal, often used in dark mode. | 
-[Aurora UI](https://auroraui.netlify.app)
-[Aceternity UI](https://ui.aceternity.com/components/aurora-background) |
-| 孟菲斯设计 (Memphis Design) | 80年代风格，大胆、古怪、好玩，打破常规 | Memphis design style, geometric shapes, clashing colors, playful patterns, squiggles and dots, asymmetrical. | 
-[Memphi UI](https://www.memphi.dev/docs)
-[Memphis Design](https://dribbble.com/tags/memphis-design)
-[Pinterest-Memphis UI](https://www.pinterest.com/faz654/memphis-ui) |
-| 瑞士风格 / 国际主义 (Swiss Design) | 极其注重网格、结构和清晰的排版，功能性强 | Swiss style, grid-based layout, sans-serif typography (like Helvetica), asymmetrical balance, objective, clean. | 
-[Swiss Post Design System](https://styles.design-system.post.ch)
-[Swiss Post Web Components](https://www.npmjs.com/package/@swisspost/design-system-components) |
-| 新拟物化 (Neumorphism) | 淡阴影 + 浮雕效果 + 柔和色彩 | Neumorphism, soft shadows, concave/convex shapes, light source simulation, subtle gradients. | 
-[Neumorphism](https://neumorphism.io/#e0e0e0) |
-| 新粗野主义(Neo-Brutalism) | 高对比度 + 粗黑边框 + 鲜艳纯色，刻意营造“未加工”的原始感，反主流精致，强调大胆排版 | Neo-brutalism, thick black outlines, high contrast, raw aesthetic, bold typography, flat colors, unpolished, retro computer interface. | [https://www.neobrutalism.dev](https://www.neobrutalism.dev/) |
+| 扁平化设计 (Flat Design) | 极致简约，去除所有装饰性元素（阴影、渐变、纹理） | Flat design, no shadows, no gradients, solid colors, simple icons, clean typography, minimalist. | [Button \| Semantic UI](https://semantic-ui.com/elements/button.html) |
+| 材料设计 (Material Design） | 模仿物理世界的纸张和墨水，有逻辑的层级和深度 | Material design, subtle shadows, logical layers, floating action button, Roboto font, bold color palettes. | [Material UI](https://mui.com/material-ui/)<br>[MDUI](https://www.mdui.org/en/)<br>[Angular Material](https://material.angular.dev/) |
+| 极简主义 (Minimalism) | "少即是多"，只保留最核心的功能和元素 | Minimalist, monochromatic or limited color palette, heavy use of whitespace, uncluttered, typography-focused. | [Geist UI](https://geist-ui.dev/en-us)<br>[Preline UI](https://www.preline.co/) |
+| 玻璃拟态 (Glassmorphism) | 模仿磨砂玻璃的效果，创造出半透明的层次感 | Glassmorphism, frosted glass effect, blurry background, semi-transparent, subtle border, vibrant background colors. | [Liquid Glass UI](https://liquidglass.liqueai.com/)<br>[Glasscn UI](https://allshadcn.com/components/glasscn-ui) |
+| 极光 UI (Aurora UI) | 模仿北极光的模糊、多彩的背景光效 | Aurora UI, colorful mesh gradients, blurry color blobs, soft, ethereal, often used in dark mode. | [Aurora UI](https://auroraui.netlify.app)<br>[Aceternity UI](https://ui.aceternity.com/components/aurora-background) |
+| 孟菲斯设计 (Memphis Design) | 80年代风格，大胆、古怪、好玩，打破常规 | Memphis design style, geometric shapes, clashing colors, playful patterns, squiggles and dots, asymmetrical. | [Memphi UI](https://www.memphi.dev/docs)<br>[Memphis Design](https://dribbble.com/tags/memphis-design)<br>[Pinterest-Memphis UI](https://www.pinterest.com/faz654/memphis-ui) |
+| 瑞士风格 / 国际主义 (Swiss Design) | 极其注重网格、结构和清晰的排版，功能性强 | Swiss style, grid-based layout, sans-serif typography (like Helvetica), asymmetrical balance, objective, clean. | [Swiss Post Design System](https://styles.design-system.post.ch)<br>[Swiss Post Web Components](https://www.npmjs.com/package/@swisspost/design-system-components) |
+| 新拟物化 (Neumorphism) | 淡阴影 + 浮雕效果 + 柔和色彩 | Neumorphism, soft shadows, concave/convex shapes, light source simulation, subtle gradients. | [Neumorphism](https://neumorphism.io/#e0e0e0) |
+| 新粗野主义(Neo-Brutalism) | 高对比度 + 粗黑边框 + 鲜艳纯色，刻意营造"未加工"的原始感，反主流精致，强调大胆排版 | Neo-brutalism, thick black outlines, high contrast, raw aesthetic, bold typography, flat colors, unpolished, retro computer interface. | [Neobrutalism.dev](https://www.neobrutalism.dev/) |
 
 > 🌕 建议-5
 >
