@@ -8,8 +8,13 @@
     /* 3. 修改正文字体大小 */
     /* 默认比较小，我们把它调大 */
     body, .fs-4 {
-      line-height: 1.7; /* 增加行高，让阅读不拥挤 */
+      line-height: 1.8; /* 增加行高，让阅读不拥挤 */
       color: #1f2328 !important;
+    }
+  
+    /* 段落间距 */
+    p {
+      margin-bottom: 1.2em; /* 段落之间间距大于行间距 */
     }
   
     /* 4. 修改侧边栏字体大小 */
@@ -18,9 +23,46 @@
       color: #1f2328 !important;
     }
   
-    /* 5. 修改标题的粗细和颜色 (可选) */
+    /* 5. 修改标题的粗细和颜色 - 调暗绿色 */
     h1, h2, h3 {
-      color: #40c982; /*稍微深一点的黑色*/
+      color: #2ea866; /* 调暗绿色，降低明度 */
+    }
+  
+    /* 列表项自定义 Bullet Icon */
+    ul li {
+      list-style: none;
+      position: relative;
+      padding-left: 1.5em;
+    }
+    ul li::before {
+      content: "▸";
+      color: #1f2328;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+  
+    /* 引用块样式 - 增加淡绿色背景和加深左侧竖线 */
+    blockquote {
+      background-color: #f0f9f4; /* 淡绿色背景 */
+      border-left: 4px solid #2ea866; /* 加深左侧竖线颜色 */
+      padding: 1em 1.5em;
+      margin: 1.5em 0;
+    }
+  
+    /* btn-primary 颜色改为品牌色 */
+    .btn-primary {
+      background-color: #1f2328 !important;
+      border-color: #1f2328 !important;
+    }
+    .btn-primary:hover {
+      background-color: #2d3136 !important;
+      border-color: #2d3136 !important;
+    }
+  
+    /* GitHub Repository 链接颜色改为品牌色 */
+    .aux-nav .aux-nav-list-item a[href*="github"] {
+      color: #1f2328 !important;
     }
   </style>
 
