@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 远离纯粹的Vibe coding: AI作为副驾驶
+title: "远离纯粹的Vibe coding: AI作为副驾驶"
 nav_order: 4
 ---
 假设现在你已经使用AI成功构建好了你软件项目的第一个版本，你使用PRD、子任务文档和预设的规则幸运地在几次或一次交互中生成代码、解决bug/issue、启动服务。

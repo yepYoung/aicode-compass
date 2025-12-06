@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Vibe Coding: AI 作为驾驶员
+title: "Vibe Coding: AI 作为驾驶员"
 nav_order: 3
 ---
 ## 开始
