@@ -76,7 +76,7 @@ MCP 通过为此 *制定标准* 来扩展这个想法。例如可以创建一个
 
 创建 MCP Server 并分享出来是一件很有意义的事情，不过我想，我们大部分人更需要知道的事如何使用 MCP Server 吧。下面我将举一个例子，这个例子将 MCP 工具 (Noton MCP) 聚合到 Codex 中使用，以架起代码和文档之间的互相查看和编辑的桥梁。
 
-*注：Notion 是一个界面非常友好和热门的云端知识管理软件，它提供的 MCP Servers 在这里： https://developers.notion.com/docs/mcp。*
+*注：Notion 是一个界面非常友好和热门的云端知识管理软件，它提供的 MCP Servers 在这里： <https://developers.notion.com/docs/mcp>。*
 
 注意，这个示例并非随意陈列在这里，而是非常有实际的意义（无论你是在做开发工作还是科研工作）。您将 Notion 当作“需求/决策/记录”的单一真相来源，把代码仓库当作“实现/验证”的单一真相来源，让 Codex 负责在两者之间来回搬运**必要且相关**的上下文，并把产出同步回 Notion，形成闭环。通过这样，您的 读/写需求 → 拆任务 → 局部改动 → 本地验证 → 回写沉淀 的工作节奏将无缝衔接。
 
@@ -125,7 +125,7 @@ notion  https://mcp.notion.com/mcp  -   enabled  OAuth
 至此，你连接Notion MCP 以及 通过 Codex 控制 Notion 的体验就结束了。
 
 除了Notion，还有其他很多专注于娱乐、通信、生产力等厂商都提供了它们的 MCP 服务，
-Anthropic 在此维护了一个实时更新的 MCP 服务器列表：https://github.com/modelcontextprotocol/servers
+Anthropic 在此维护了一个实时更新的 MCP 服务器列表：<https://github.com/modelcontextprotocol/servers>.
 
 > 不同的 MCP 服务厂商提供不同的方式来允许 Agent 接入。例如，刚刚使用 codex mcp login notion 命令来登录 Notion 是因为 Notion MCP 支持 OAuth 的认证方式；而 Context7 则使用 Bearer token 的方式支持认证，这意味着你无需登录，但需要在Context7 的官方网站获取一个 Bearer Token Key。
 >
