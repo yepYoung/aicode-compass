@@ -1,0 +1,37 @@
+title: "AI Code Compass"
+email: "522023320186@smail.nju.edu.cn"
+description: >- # this means to ignore newlines until "baseurl:"
+  Your guide to the evolving world of AI-assisted programming. Explore tools, best practices, and the future of coding with AI.
+url: "https://yepyoung.github.io"
+baseurl: "/aicode-compass"
+twitter_username: your_twitter_handle
+github_username:  your_github_handle
+
+
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# 启用搜索框 (图1右上角的搜索功能)
+search_enabled: true
+
+color_scheme: light
+
+aux_links:
+  "GitHub Repository": https://github.com/yepYoung/aicode-compass
+
+footer_content: "Copyright &copy; 2025 YepYoung. Distributed by an MIT license."
+
+# 标题锚点 (鼠标悬停在标题上显示的链接符号)
+heading_anchors: true
+
+exclude:
+  - README.md
+
+
+social_links:
+  - { platform: github, user_url: "https://github.com/your_github_handle" }
+  - { platform: twitter, user_url: "https://twitter.com/your_twitter_handle" }
+  - { platform: linkedin, user_url: "https://www.linkedin.com/in/your_linkedin_profile" }

@@ -1,0 +1,118 @@
+<style>
+    /* 1. 修改全局字体类型 */
+    /* 优先使用微软雅黑，然后是 Segoe UI (Win), Helvetica (Mac), 最后是通用无衬线字体 */
+    body {
+      font-family: "Microsoft YaHei", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    }
+  
+    /* 3. 修改正文字体大小 */
+    /* 默认比较小，我们把它调大 */
+    body, .fs-4 {
+      line-height: 1.8; /* 增加行高，让阅读不拥挤 */
+      color: #1f2328 !important;
+    }
+  
+    /* 段落间距 */
+    p {
+      margin-bottom: 1.1em; /* 段落之间间距大于行间距 */
+    }
+  
+    /* 4. 修改侧边栏字体大小 */
+    .nav-list .nav-list-item .nav-list-link {
+      font-size: 16px !important;
+      color: #1f2328 !important;
+    }
+  
+    /* 5. 修改标题的粗细和颜色 - 调暗绿色 */
+    h1, h2, h3 {
+      color: #268853; /* 调暗绿色，降低明度 */
+    }
+  
+    /* 列表项自定义 Bullet Icon - 只影响正文内容区域，排除侧边栏 */
+    ul li {
+      list-style: none;
+      position: relative;
+      padding-left: 1.5em;
+    }
+    ul li::before {
+      content: "▸";
+      color: #1f2328;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+    /* 排除侧边栏导航列表，恢复默认样式 */
+    .nav-list ul li {
+      list-style: disc;
+      padding-left: 0;
+      position: static;
+    }
+    .nav-list ul li::before {
+      display: none;
+    }
+  
+    /* 引用块样式 - 增加淡绿色背景和加深左侧竖线 */
+    blockquote {
+      background-color: #f0f9f4; /* 淡绿色背景 */
+      border-left: 4px solid #2ea866; /* 加深左侧竖线颜色 */
+      padding: 1em 1.5em;
+      margin: 1.5em 0;
+    }
+  
+    /* btn-primary 颜色改为品牌色 */
+    .btn-primary,
+    a.btn-primary {
+      background-color: #1f2328 !important;
+      border-color: #1f2328 !important;
+      color: white !important;
+      border-radius: 6px !important;
+    }
+    /* 确保按钮字体大小正确 */
+    .btn-sm,
+    a.btn-sm {
+      font-size: 0.875rem !important;
+      padding: 0.375rem 0.75rem !important;
+    }
+    .btn-primary:hover,
+    a.btn-primary:hover {
+      background-color: #2d3136 !important;
+      border-color: #2d3136 !important;
+      color: white !important;
+    }
+  
+    /* btn-outline 颜色改为品牌色 */
+    .btn-outline,
+    a.btn-outline {
+      color: #1f2328 !important;
+      border-color: #1f2328 !important;
+      background-color: transparent !important;
+      border-radius: 6px !important;
+    }
+    .btn-outline:hover,
+    a.btn-outline:hover {
+      background-color: #1f2328 !important;
+      color: white !important;
+      border-color: #1f2328 !important;
+    }
+  
+    /* 正文中的普通链接颜色改为品牌色 */
+    a:not(.btn):not(.nav-list-link):not(.aux-nav a) {
+      color: #1f2328 !important;
+    }
+    a:not(.btn):not(.nav-list-link):not(.aux-nav a):hover {
+      color: #2d3136 !important;
+      text-decoration: underline;
+    }
+  
+    /* GitHub Repository 链接颜色改为品牌色 */
+    .aux-nav a[href*="github"] {
+      color: #1f2328 !important;
+    }
+  </style>
+
+<div style="background-color: #262526; color: white; text-align: center; padding: 8px;">
+  🚀 <b>本指南正在持续迭代中，以确保符合最新的Best Practices...</b>
+</div>
+
+<!-- 1. 设置浏览器标签页小图标 -->
+<link rel="icon" type="image/png" href="{{ '/img/noto--compass.png' | relative_url }}">
